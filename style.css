@@ -51,8 +51,7 @@ hr{
 .illustrationbox img{
     position: absolute;
     top: 35%;
-    left: -90px;
-     
+    left: -90px; 
 }
 .content{
     overflow: hidden;
@@ -61,7 +60,6 @@ hr{
     padding-left: 6px;
     color: hsl(240, 6%, 50%);
 }
-    
 .faqdetailitem{
     display: flex;
     flex-wrap: wrap;
