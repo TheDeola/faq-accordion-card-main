@@ -1,98 +1,109 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
-    body{
-      font-family: 'Kumbh Sans', sans-serif;
-      font-size: 12px;
-      padding: 0;
-      margin: 0;
-      height: 100vh;
-      background: rgb(175,103,233);
-      background: linear-gradient(180deg, rgba(175,103,233,1) 0%, rgba(101,101,231,1) 100%);
-      background-repeat: no-repeat;
-    }
-    h1{
-      margin: 50px;
-      margin-left: 0;
-      margin-bottom: 30px;
-    }
-    .mainbox {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      height: 100%;
-    }
-    hr{
-      border-top: 0.1px solid hsl(240, 5%, 91%);
-    }
-    .mainitem{
-      display: flex;
-      flex-wrap: wrap;
-      width: 800px;
-      height: 400px;
-      background-color: white;
-      border-radius: 15px;
-    }
-    .faqitem{
-      display: block;
-      width: 50%;
-    }
-    .left{
-      background: url("images/illustration-woman-online-desktop.svg"),url("images/bg-pattern-desktop.svg");
-      background-size: 372px 259px,766px 720px;
-      background-position: right 80px bottom 75px,right 70px bottom -100px;
-      background-repeat: no-repeat;
-    }
-    .illustrationbox{
-      position: relative;
-      width: 100%;
-      height: 100%;
-    }
-    .illustrationbox img{
-      position: absolute;
-      top: 35%;
-      left: -90px;
-     
-    }
-    .content{
-      overflow: hidden;
-      max-height: 0px;
-      transition: max-height 0.5s ease-out;
-      padding-left: 6px;
-      color: hsl(240, 6%, 50%);
-    }
     
-    .faqdetailitem{
-      display: flex;
-      flex-wrap: wrap;
-      width: 80%;
-    }
-    .faqdetailitem hr{
-      width: 100%;
-    }
-    button{
-      position: relative;
-      text-align: left;
-      background-color: white;
-      color: hsl(240, 6%, 50%);
-      border: 0;
-      width: 100%;
-      font-family: 'Kumbh Sans', sans-serif;
-    }
-    .active{
-      color:hsl(238, 29%, 16%);
-      font-weight: 700;
-    }
-    button:hover{
-      color:hsl(14, 88%, 65%);
-    }
-    .collapsible img{
-      position: absolute;
-      top: 30%;
-      right: 0;
-    }
-    @media screen and (max-width:800px) {
-      .faqitem{
-      width: 100%;
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background: rgb(175,103,233);
+    background: linear-gradient(180deg, rgba(175,103,233,1) 0%, rgba(101,101,231,1) 100%);
+    background-repeat: no-repeat;
+}
+h1{
+    margin: 50px;
+    margin-left: 0;
+    margin-bottom: 30px;
+}
+.mainbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+hr{
+    border-top: 0.1px solid hsl(240, 5%, 91%);
+}
+.mainitem{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 400px;
+    background-color: white;
+    border-radius: 15px;
+}
+.faqitem{
+    display: block;
+    width: 50%;
+}
+.left{
+    background: url("images/illustration-woman-online-desktop.svg"),url("images/bg-pattern-desktop.svg");
+    background-size: 372px 259px,766px 720px;
+    background-position: right 80px bottom 75px,right 70px bottom -100px;
+    background-repeat: no-repeat;
+}
+.illustrationbox{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.illustrationbox img{
+    position: absolute;
+    top: 35%;
+    left: -90px;
+     
+}
+.content{
+    overflow: hidden;
+    max-height: 0px;
+    transition: max-height 0.5s ease-out;
+    padding-left: 6px;
+    color: hsl(240, 6%, 50%);
+}
+    
+.faqdetailitem{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+.faqdetailitem hr{
+    width: 100%;
+}
+button{
+    position: relative;
+    text-align: left;
+    background-color: white;
+    color: hsl(240, 6%, 50%);
+    border: 0;
+    width: 100%;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.active{
+    color:hsl(238, 29%, 16%);
+    font-weight: 700;
+}
+button:hover{
+    color:hsl(14, 88%, 65%);
+}
+.collapsible img{
+    position: absolute;
+    top: 30%;
+    right: 0;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+/* Responsiveness Starts Here */
+
+@media screen and (max-width:800px) {
+    .faqitem{
+        width: 100%;
     }
     .mainitem{
       width: 350px;
@@ -125,6 +136,4 @@
       margin: 20px;
       font-size: 2rem;
     }
-    }
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+}
